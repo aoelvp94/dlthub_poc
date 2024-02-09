@@ -1,0 +1,13 @@
+# put your configuration values here
+
+[runtime]
+log_level="WARNING"  # the system log level of dlt
+# use the dlthub_telemetry setting to enable/disable anonymous usage data reporting, see https://dlthub.com/docs/telemetry
+dlthub_telemetry = true
+
+[pipeline_poc]  # Set your pipeline name here!
+database = "test"  # Database name (Optional), default database is loaded if not provided.
+collection_names = ["weather"] 
+
+[schema]
+naming="duck_case"
